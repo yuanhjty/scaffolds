@@ -1,4 +1,0 @@
-{
-  "prettier.quoteProps": "consistent",
-  "eslint.run": "onSave",
-}
