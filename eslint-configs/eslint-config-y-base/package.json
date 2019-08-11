@@ -1,17 +1,32 @@
 {
   "name": "eslint-config-y-base",
   "version": "0.1.0",
-  "description": "",
+  "description": "eslint-config-y-base",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "test": "npm run lint && tape test/*.js",
+    "prepublishOnly": "npm run test"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "JavaScript"
+  ],
+  "author": "ShaoZhiyuan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuanhjty/scaffolds"
+  },
+  "homepage": "https://github.com/yuanhjty/scaffolds",
+  "engines": {
+    "node": "^8.10.0 || ^10.13.0 || >=11.10.1"
+  },
   "devDependencies": {
     "eslint": "^6.1.0",
-    "eslint-plugin-import": "^2.18.2"
+    "eslint-plugin-import": "^2.18.2",
+    "tape": "^4.11.0"
   },
   "peerDependencies": {
     "eslint": "^6.1.0",
