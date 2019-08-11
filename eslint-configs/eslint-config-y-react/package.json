@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-y-react",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "eslint-config-y-react",
   "license": "MIT",
   "main": "index.js",
@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "eslint": "^6.1.0",
-    "eslint-config-y-base": "^0.1.0",
+    "eslint-config-y-base": "^1.0.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.6.1",
