@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-y-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint-config-y-base",
   "license": "MIT",
   "main": "index.js",
