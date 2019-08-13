@@ -4,6 +4,7 @@ module.exports = {
     './rules/best-practices.js',
     './rules/es6.js',
     './rules/imports.js',
+    './rules/node.js',
     './rules/possible-errors.js',
     './rules/styles.js',
     './rules/variables.js',
