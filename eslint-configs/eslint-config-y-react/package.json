@@ -5,28 +5,35 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
-    "test": "npm run lint && tape test/*.js",
+    "lint": "eslint ./",
+    "lint-fix": "eslint ./ --fix",
+    "test": "npm run lint-fix && tape test/*.js",
     "prepublishOnly": "npm run test"
   },
   "keywords": [
     "eslint",
-    "eslintconfig",
-    "JavaScript",
+    "eslint config",
+    "javascript",
     "react"
   ],
   "author": "ShaoZhiyuan",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yuanhjty/scaffolds"
+    "url": "https://github.com/yuanhjty/scaffolds.git",
+    "directory": "eslint-configs/eslint-config-y-react"
   },
-  "homepage": "https://github.com/yuanhjty/scaffolds",
+  "bugs": {
+    "url": "https://github.com/yuanhjty/scaffolds/issues"
+  },
+  "homepage": "https://github.com/yuanhjty/scaffolds#readme",
   "engines": {
     "node": "^8.10.0 || ^10.13.0 || >=11.10.1"
   },
+  "dependencies": {
+    "eslint-config-y-base": "^1.0.0"
+  },
   "devDependencies": {
     "eslint": "^6.1.0",
-    "eslint-config-y-base": "^1.0.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.6.1",
