@@ -4,8 +4,9 @@
   "description": "simple scaffolds",
   "main": "index.js",
   "scripts": {
-    "publish": "lerna run publish",
+    "publish": "lerna publish",
     "lint": "lerna run lint",
+    "lint-fix": "lerna run lint-fix",
     "test": "lerna run test"
   },
   "author": "",
