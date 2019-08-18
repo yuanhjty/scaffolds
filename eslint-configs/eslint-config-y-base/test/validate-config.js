@@ -22,7 +22,7 @@ test('load config in eslint to validate all rule syntax is correct', function (t
 
   const code = `
 const foo = 1;
-function bar() {}
+function bar() { /* do nothing */ }
 bar(foo);
 `;
 

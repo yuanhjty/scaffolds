@@ -7,6 +7,7 @@ module.exports = {
     'dot-location': ['error', 'property'],
     'no-caller': 'error',
     'no-else-return': 'error',
+    'no-empty-function': 'error',
     'no-extra-bind': 'error',
     'no-floating-decimal': 'error',
     'no-iterator': 'error',

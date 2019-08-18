@@ -24,8 +24,10 @@ test('load config in eslint to validate all rule syntax is correct', function (t
 import React from 'react';
 
 export default class Foo extends React.Component {
-  componentDidMount() {}
-  handleClick() {}
+  componentDidMount() {
+    // do nothing
+  }
+  handleClick() { /* do nothing */ }
   render() {
     return <div />;
   }
