@@ -1,6 +1,7 @@
 {
   "packages": [
-    "eslint-configs/*"
+    "eslint-configs/eslint-config-y-base",
+    "eslint-configs/eslint-config-y-react"
   ],
   "bootstrap": {
     "hoist": true
