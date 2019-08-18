@@ -24,6 +24,14 @@ test('load config in eslint to validate all rule syntax is correct', function (t
 const foo = 1;
 function bar(): undefined { /* do nothing */ }
 bar(foo);
+
+export const arr: number[] = [1, 2, 3];
+
+interface F {
+  (): undefined;
+}
+
+export const baz: F = () => { /* empty */ };
 `;
 
   const lintResult = cli.executeOnText(code);
