@@ -21,8 +21,8 @@ test('load config in eslint to validate all rule syntax is correct', function (t
   const formatter = cli.getFormatter();
 
   const code = `
-const foo = 1;
-function bar() {}
+const foo: number = 1;
+function bar() { /* do nothing */ }
 bar(foo);
 `;
 
