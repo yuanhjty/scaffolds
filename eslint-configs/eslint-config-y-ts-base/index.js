@@ -15,5 +15,6 @@ module.exports = {
         allow: [],
       },
     ],
+    '@typescript-eslint/explicit-function-return-type': 'error',
   },
 };
