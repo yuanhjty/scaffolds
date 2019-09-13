@@ -2,7 +2,8 @@
   "packages": [
     "eslint-configs/eslint-config-y-base",
     "eslint-configs/eslint-config-y-react",
-    "eslint-configs/eslint-config-y-ts-base"
+    "eslint-configs/eslint-config-y-ts-base",
+    "prettier-configs/*"
   ],
   "bootstrap": {
     "hoist": true

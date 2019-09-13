@@ -1,0 +1,33 @@
+{
+  "name": "prettier-config-y-base",
+  "version": "1.0.0",
+  "description": "prettier config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./",
+    "lint:fix": "eslint ./ --fix",
+    "test": "echo \"prettier-config-y-base: no test specified\" && exit 0",
+    "prepublishOnly": "npm run lint:fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuanhjty/scaffolds.git",
+    "directory": "prettier-configs/prettier-config-y-base"
+  },
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "author": "ShaoZhiyuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuanhjty/scaffolds/issues"
+  },
+  "homepage": "https://github.com/yuanhjty/scaffolds#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0"
+  },
+  "peerDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
