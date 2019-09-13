@@ -32,7 +32,7 @@ module.exports = {
         tabWidth: 2,
         ignoreComments: true,
         ignoreUrls: true,
-        // ignoreStrings: true,
+        ignoreStrings: true,
         ignoreTemplateLiterals: true,
         ignoreRegExpLiterals: true,
       },
@@ -74,7 +74,7 @@ module.exports = {
     'semi-spacing': ['error', { before: false, after: true }],
     'space-before-function-paren': [
       'error',
-      { anonymous: 'always', named: 'never', asyncArrow: 'always' },
+      { anonymous: 'never', named: 'never', asyncArrow: 'always' },
     ],
     'space-in-parens': ['error', 'never'],
     'space-infix-ops': ['error', { int32Hint: false }],
