@@ -2,7 +2,7 @@ module.exports = {
   rules: {
     'arrow-spacing': ['error', { before: true, after: true }],
     'generator-star-spacing': ['error', { before: true, after: false }],
-    'no-confusing-arrow': ['error', { allowParens: true }],
+    'no-confusing-arrow': 'off',
     'no-duplicate-imports': ['error', { includeExports: true }],
     'no-useless-computed-key': 'error',
     'no-useless-rename': 'error',
