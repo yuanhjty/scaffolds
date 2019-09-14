@@ -12,7 +12,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/yuanhjty/scaffolds.git",
-    "directory": "prettier-configs/prettier-config-y-base"
+    "directory": "packages/prettier-config-y-base"
   },
   "keywords": [
     "prettier",

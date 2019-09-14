@@ -4,6 +4,7 @@
   "description": "simple scaffolds",
   "main": "index.js",
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "publish": "lerna publish",
     "lint": "lerna run lint",
     "lint:fix": "lerna run lint:fix",

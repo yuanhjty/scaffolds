@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: ['./eslint-configs/eslint-config-y-base'],
+  extends: ['./packages/eslint-config-y-base'],
   overrides: [
     {
       files: ['**/test/**/*.js'],
