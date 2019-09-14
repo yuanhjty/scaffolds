@@ -6,20 +6,53 @@
   "scripts": {
     "publish": "lerna publish",
     "lint": "lerna run lint",
-    "lint-fix": "lerna run lint-fix",
-    "test": "lerna run test"
+    "lint:fix": "lerna run lint:fix",
+    "lint:staged": "lint-staged",
+    "test": "lerna run test",
+    "prettier": "prettier --write \"**/*.{js,json}\"",
+    "cm": "git-cz"
   },
-  "author": "",
+  "lint-staged": {
+    "*.json": [
+      "npm run prettier",
+      "git add"
+    ],
+    "*.js": [
+      "npm run prettier",
+      "npm run lint:fix",
+      "npm run test",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "author": "ShaoZhiyuan",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0-alpha.0",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
     "eslint": "^6.1.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.6.1",
+    "husky": "^3.0.5",
     "lerna": "^3.16.4",
+    "lint-staged": "^9.2.5",
+    "prettier": "^1.18.2",
     "typescript": "*"
   }
 }
