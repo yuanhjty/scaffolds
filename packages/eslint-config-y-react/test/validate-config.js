@@ -22,13 +22,21 @@ test('load config in eslint to validate all rule syntax is correct', function(t)
   const code = `
 import React from 'react';
 
-export default class Foo extends React.Component {
+function Foo() {
+  return <div>foo</div>;
+}
+
+// function Bar() {
+//   return <div>bar</div>;
+// }
+
+export default class Baz extends React.Component {
   componentDidMount() {
     // do nothing
   }
   handleClick() { /* do nothing */ }
   render() {
-    return <div />;
+    return <Foo />;
   }
 }
 `;
