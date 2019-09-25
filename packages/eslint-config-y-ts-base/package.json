@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-y-ts-base",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "eslint-config-y-ts-base",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,7 @@
     "node": "^8.10.0 || ^10.13.0 || >=11.10.1"
   },
   "dependencies": {
-    "eslint-config-y-base": "^3.2.0"
+    "eslint-config-y-base": "^4.0.0"
   },
   "devDependencies": {
     "eslint": "^6.1.0",
