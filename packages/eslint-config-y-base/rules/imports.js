@@ -22,7 +22,10 @@ module.exports = {
       'always',
       { js: 'never', jsx: 'never', ts: 'never', tsx: 'never' },
     ],
-    'import/order': 'error',
+    'import/order': [
+      'error',
+      { groups: ['builtin', 'external', 'internal', 'unknown', 'parent', 'sibling', 'index'] },
+    ],
     'import/newline-after-import': 'error',
     'import/prefer-default-export': 'warn',
   },
