@@ -6,9 +6,21 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint ./",
-    "lint:fix": "eslint ./ --fix",
+    "lint-fix": "eslint ./ --fix",
+    "lint-staged": "lint-staged",
     "test": "tape test/*.js",
     "prepublishOnly": "npm run test"
+  },
+  "lint-staged": {
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.js": [
+      "prettier --write",
+      "eslint --fix",
+      "git add"
+    ]
   },
   "keywords": [
     "eslint",
