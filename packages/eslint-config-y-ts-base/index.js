@@ -8,6 +8,7 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   parser: '@typescript-eslint/parser',
   rules: {
+    'no-extra-parens': 'off',
     '@typescript-eslint/camelcase': [
       'error',
       {
