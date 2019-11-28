@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-y-react",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "eslint-config-y-react",
   "license": "MIT",
   "main": "index.js",
@@ -42,7 +42,7 @@
     "node": "^8.10.0 || ^10.13.0 || >=11.10.1"
   },
   "dependencies": {
-    "eslint-config-y-base": "^4.0.0"
+    "eslint-config-y-base": "^4.0.1"
   },
   "peerDependencies": {
     "eslint": "^6.1.0",
