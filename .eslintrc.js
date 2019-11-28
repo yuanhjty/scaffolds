@@ -6,6 +6,7 @@ module.exports = {
       files: ['**/test/**/*.js'],
       rules: {
         'func-names': 'off',
+        'import/no-extraneous-dependencies': 'off',
       },
     },
   ],
