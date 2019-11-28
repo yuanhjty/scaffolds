@@ -36,9 +36,6 @@
     "url": "https://github.com/yuanhjty/scaffolds/issues"
   },
   "homepage": "https://github.com/yuanhjty/scaffolds#readme",
-  "devDependencies": {
-    "eslint": "^6.1.0"
-  },
   "peerDependencies": {
     "prettier": "^1.18.2"
   }

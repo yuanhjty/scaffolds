@@ -44,10 +44,6 @@
   "dependencies": {
     "eslint-config-y-base": "^4.0.0"
   },
-  "devDependencies": {
-    "eslint": "^6.1.0",
-    "tape": "^4.11.0"
-  },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0-alpha.0",

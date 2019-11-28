@@ -20,6 +20,7 @@ test('load config in eslint to validate all rule syntax is correct', function(t)
   const formatter = cli.getFormatter();
 
   const code = `
+// eslint-disable-next-line import/no-extraneous-dependencies
 import React from 'react';
 
 function Foo() {
