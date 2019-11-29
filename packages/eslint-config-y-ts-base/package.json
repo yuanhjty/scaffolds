@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-y-ts-base",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "eslint-config-y-ts-base",
   "main": "index.js",
   "scripts": {
