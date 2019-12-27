@@ -8,6 +8,7 @@ module.exports = {
     './rules/possible-errors.js',
     './rules/styles.js',
     './rules/variables.js',
+    'prettier',
   ],
   parserOptions: {
     ecmaVersion: 10,

@@ -43,6 +43,7 @@
   },
   "peerDependencies": {
     "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.8.0",
     "eslint-plugin-import": "^2.18.2"
   }
 }
